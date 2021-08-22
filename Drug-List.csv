@@ -1,3 +1,220 @@
-DrugName,B,C,D,E,F,G
-abc,bcd,cde,def,efg,fgh,ghi
-apple,banana,carrot,danish,egg,frog,gnu
+Generic name,Dose,Safe dose,Class,Most common use,Mechanism of action,Adverse reactions,Contraindications,Nursing implications,Patient teaching
+Acetaminophen,,650mg 4-6 hr max 4000mg/day,non opiod analgesic,reduce fever and pain,believed to be bc of descending serotonergic inhibitory pathways in CNS,hepatotoxicity,,"**monitor liver enzymes, check previously given doses ",
+Alendronate,,70mg once weekly,bisphosphonate derivative,"osteopororis,paget disease ","bisphosphonate inhibits bone resoprtion via actions on osteoclasts or on osteoclast precusors; decresae the rate of bone resorption, leading to an indirect incrase in bone mineral density. Note: For Paget disease whic is characterized by disordered resorption and formation of bone, inhibition leads to an indirect decrease in bone formation, but newly formed bone is more normal in architecture.","Atypical femur fractures, GI mucosal irritation, hypocalcemia, osteonecrosis of jaw","Renal insufficiency with CrCl<35mL/min, hypocalcemia, abnormalities of esophagus which delay esophageal emptying, inability to stand or sit upright for atleast 30 minutes, increased risk of aspiration","check monitored labs, teach adminstration, change lifestyle for optimized bone grwoth, report pain, good oral hygiene and dental exams",
+Aluminum magnesium liquid,,,,,,,,,
+"amLODIPine
+ (Norvasc)",,,,,,,,,
+ARIPIprazole,,,,,,,,,
+atenolol,,,,,,,,,
+Benztropine,,,,,,,,,
+Betaderm,,,,,,,,,
+bisaCODyl suppository (Dulcolax),,,,,,,,,
+bisPROlol (Monocor),,,,,,,,,
+Calcium,,500g?,Calcium salt,hypocalcemia,moderates nerve and muslce performance via action potential excitation and threshhold regulation,"anorexia, consitpation, nausea, vomiting",,,
+CeFAZolin Bag,,,,,,,,,
+cefTRIAXone,2g,IV 1-2g (depending on infection type),"antibiotic, cephalosporin (3rd gen)",treat infection,inhibits bacterial cell wall synthesis by binindg to one or more pencillin bindnig proteins to inhibit final transpeptidaiton of peptidoglycan synthesis,"-ceftriaxone calcium precipitation (damage to lung and kidney, mostly in children)
+- clostridioides (formerly C.difficile)
+-hemolytic anemia (via autoimmune: IgM type immune complexes)
+- hypersentiviity reactions (maculopapular rashes to anaphylaxis range)
+- kernicterus (displaces bilirubin from albumin -> higher conc. unconjugated bilirubin, in babies, yellowing of eyes and skin)","Risk X: BCG, cholera vaccine
+
+Risk D:
+neonates
+calcium salts IV
+Ringers IV","monitor labs
+monitor hypersensitivity
+monitor for bloody diarrhea
+NEVER CONNECT IV infusion of drug to infection with calcium",
+cloNIDine (Catapres),,,,,,,,,
+Clopidogrel,75mg,75mg,antiplatelet,"acute coronary syndrome (ST segmenet eleveation, non ST MI), MI, ischemic stroke","Clopidogrel requires in vivo biotransformation to an active thiol metabolite. The active metabolite irreversibly blocks the P2Y12 component of ADP receptors on the platelet surface, which prevents activation of the GPIIb/IIIa receptor complex, thereby reducing platelet aggregation. Platelets blocked by clopidogrel are affected for the remainder of their lifespan (~7 to 10 days).","hemmorage, bruising","liver impariment or cholestatic jaundice, concomitant use of repaglinide",**Check ordered labs and report abnormalities. Monitor for and educated patient to report signs and symptoms of bleeding. Educate cardiac patients about adherence to therapy; avoid discontinuation for any procedures without consultation with patient's cardiologist.,
+Cyanocobalamin (Vitamin B12),,,,,,,,,
+Dequalinium lozenge,,,,,,,,,
+Dextrose 5%,,,,,,,,,
+diclofenac gel 2.32% (Voltaren),1 application,up to 2g twice a day,NSAID,relief of arhtitis pains in joints,"reversibly inhbits COX-1 and 2 results in decreasded prostaglandin prepcursors -> antipyretic, analgesic","application on site sscaling, cntact dermatitis, pruritis","Hypersensitivity to diclofenac (eg, anaphylactic reaction, serious skin reactions) or any component of the formulation; history of asthma, urticaria, or other allergic-type reactions after taking aspirin or other nonsteroidal anti-inflammatory drugs; use in the setting of coronary artery bypass graft surgery; use on nonintact or damaged skin, including exudative dermatitis, eczema, infected lesions, burns, or wounds.",monitor skin integrity before and after application,
+Dimenhydrinate,25-50mg,50-100mg max 400mg/day,"ethanoloamine derivative, histamine h1 antagonist, first generaiotn","motion sickness, nausea, vomitting","Competes with histamine for H1-receptor sites on effector cells in the gastrointestinal tract, blood vessels, and respiratory tract; blocks chemoreceptor trigger zone, diminishes vestibular stimulation, and depresses labyrinthine function through its central anticholinergic activity","tachycardia, dizziness, drowsy, skin rash, headache, anorexia, dysuria, blurred vision","concurrent use of or use within 14 days following therapy with a monoamine oxidase inhibitor; narrow angle glaucoma; chronic pulmonary disease; prostatic hypertrophy; patients <2 years of age
+",,
+doxycycline,,,,,,,,,
+ezetimibe,,,,,,,,,
+ferrous gluconate,,,,,,,,,
+fluticasone and vilanterol,,,,,,,,,
+fluticasone inh (Flovent HFA),,,,,,,,,
+Folic Acid,1mg,PO: 1-5mg,water soluble vitamin,Megaloblastic and macrocytic anemia due to folate deficiency,folic acid is necessary for the formation of coenzymes in metabolic systems (purines and pyrmidines) required to maintain erhthropoiesis and stimulates WBC and platelet production,"Flushing, malaise, hypersensitivity",hypersensitivity to folic acid,,
+furosemide tab (Lasix),40mg,20-40mg,antihpyertensive / loop diuretic ,edema / HTN,inhibits reabosrotion of sodium and chloride in loop causing water loss,"Acute kidney injury, fluid electrolyte loss, hypersenstivity reactions, otototxicity ",,"Check kidney labs before giving and continue to monitor kidney function, monitor for hypovolemia and electrolyte disturbances, monitor for allergic reactions S&S, monitor for deafness / tinnitus ",
+gabapentin (sanis),,,,,,,,,
+Haloperidol tab,1mg,2-10mg,first generation typical antipsychotic,"behavioural disorders, hyperactivity, schizophrenia, tourette syndrome",Haloperidol is a butyrophenone antipsychotic that nonselectively blocks postsynaptic dopaminergic D2 receptors in the brain,"EPS, hematologic abnormalities, hyperprolactinemia, metabolic syndrome, mortaility in older adults, neuroletpic malginant syndrome, QTc prolongation, seizures, sexual dysfunction, temperature dysregulation","Parkinsons, severe CNS depresison, coma, dementia with Lewy bodies","Check ordered labs and report abnormalities. Check vitals, height, and weight as ordered. Monitor for depression or suicidal ideation. Educate patient to report signs of depression, changes in movement, vision changes, changes in menstruation, or changes in sexual function.
+",
+Hydromorphone,,,,,,,,,
+Ibuprofen,,,,,,,,,
+iron sucrose,,,,,,,,,
+Ketorolac,,,,,,,,,
+Lactulose Liquid,,"10-20g, max 40g daily","ammonium detoxicant, laxative, osmotic","constipation, portal systemic encephalopathy","Bacteria degrades lactulose -> lower pH -> inhibits diffusion of NH3 into blood by causing NH3 convert to NH4+.
+Enhances diffusion of NH3 from blood into gut where conversion to NH4+ occurs
+produces osmotic effect in colon -> distention -> peristalsis
+reduce blood ammonia -> reduce degree of protal systemic encephalopathy
+","dehydration, hypernatremia, hypokalemia
+abdominal cramps, distension, diarrhea",low galactose diet,"**monitor for soft stools or resolution of CNS in PSE
+
+monitor for CHF
+
+adjust dose for severe diarrhea",
+LevETIRAcetam,,,,,,,,,
+Lorazepam tab SL,4mg IV / 2mg po,"0.5-2mg PO
+1-4mg IV","anticonvulsant, benzodiazepine","anxiety, status epilepticus",binds benzodiazepine receptors on postsynaptic GABA neuron in CNS. enahnces the inhibitory effect of GABA on neuronal excitability results by increasing neuronal emmbrane permeability to Cl- -> hypoerpolarization.,"Anterograde amnesia
+CNS depression
+Neruodevelopmental efects in chidlren
+Paradoxical reactions
+Propylene glycol toxicity [paranteral route](AKI, hemolysis, hypotension, cardiac arythmias)
+Withdrawl syndrome","myasthenia gravis
+Parenteral: hypersensitivity to polyethylene glycol, propylene glycol or benzyl alcohol, sleep apnea","monitor for withdrawl or hyperactive
+monitor vital signs
+monitor lab values",
+Metoclopramide,10mg,10mg q4-6hr,"antiemetic, dopamine antagonist, gastrointestninal agent, prokinetic, serotonin receptor agonist","injection: nausea, gastroparesis
+nasal: gastroparesis
+oral: GERD, gastroparesis ","blocks dopamine receptors and serotoninc repcetors in CNS
+enhances response to Ach in tissue in upper GI to cause motility wihtout stimulating gastric, billiary or pancreatic secretions and increase lower esophageal sphincter tone ","CNS depression
+Extrapyramidal symptoms (acute dystonia, parkinsonism, akathesia, neuroleptic malginant syndrome, tardive dyskensia)
+Hyperprolactinemia (may suprress hypothalamic GnRH -> inhibit reproductive function)","GI perforation, obstruction or hemmorage that may be dangerous
+
+history of EPS","monitor vital signs
+check for missed menses, enlarged breasts or discharge",risk of falls
+metronidazole (flagyl),,,,,,,,,
+Naloxone,,,,,,,,,
+Nicotine inhaler,,,,,,,,,
+olanzapine tab,,,,,,,,,
+Ondasetron,4-8mg,"IV 4-8mg
+oral 8mg TID","antiemetic, selective Serotonin receptor antagonist",nausea vomitting,blocks serotonin ,"constipation
+headache
+hypersensitivity
+QT prolongation","concomitant use with apomorphine
+
+drugs that prolong QT internval",,
+oxycoDONE,,,,,,,,,
+Oxycodone-acetaminophen (percocet),,,,,,,,,
+Pantoprazole magnesium tab enteric,40mg,40mg,"PPI, subsittuted benzimidazole","gastroesophageal reflux, zollnger ellison syndrome","PPI, suppress gastric acid secretion of parietal cell H+/K+ pump","fractures
+lupus erythematosus (autoimmune disease)
+pantoprazole by itself: hypomagneisum (prolong QTc)
+enteric infections
+fundic gland polyps",rilpivirine,"labs
+bloody diarrhea (C. difficile monitoring)",
+PARoxete,,,,,,,,,
+Polyethelene glycol powder,,17g,laxative osmotic,constipation occasional,"An osmotic agent, polyethylene glycol 3350 causes water retention in the stool; increases stool frequency.",diarrhea,relaxa in <18yrs,monitor for bowel obstruction prior to,
+potassium chloride,3000mg,"10-20mEq 2-4x/day PO
+
+20mEq every2-3hrs maximum 10-20mEq/hr",electrolyte supplement,hypokalemia,"K+ is needed for nerve impulses, heart, brain and other tissus","cardioaryhtmias, hypervolemia, pulmonary edema","Inj: renal impairment with oliguaria, anuria or azotemia, adisson disease, vfib, extensive tissue breakdown, acute dehydration",,
+Ramipril,,,,,,,,,
+rivaroxaban (Xarelto) **high alert,,,,,,,,,
+rosuvastatin (crestor),,,,,,,,,
+Salbutemol inh (Ventolin),"100mcg / puff, 2-4 puffs","acute excacerbation = no optimal dose, maybe nebulizer?",beta 2 agonist,control bronchospasms,relaxes bronchial smooth muscles via beta-2-receptors via little effect on HR,"tremor, excitement, exacerbation of asthma, URT infeciton",tocolytic use in patients at risk of premature labor or threatened abortion,"monitor for S&S of candiasis, infection, mania",
+Sennosides,,,,,,,,,
+Simethicone tab chew (Ovol),,,,,,,,,
+sodium citrate,3mL,,anticoagulant,for granulocytapheresis,"citrate ions induce anticoagulation by chelating free ionized calcium, making it unavailable for use by coagulation system","cardiac aryhtmia, chest pressure, hypotension
+CNS: chills paresthisa
+GI: stomahc cramps",NO DIRECT IV,,
+Sodium phosphate fleet enema,,,,,,,,,
+sucralfate,,,,,,,,,
+Tinzaparin,,,,,,,,,
+traZODOne (Desyrel),,,,,,,,,
+Vitamin D Cholecalciferol,,,,,,,,,
+Zinc,,,,,,,,,
+Zopiclone,,,,,,,,,
+Zuclopenthixol DECANOATE,,,,,,,,,
+Acyclovir,600mg,"10mg/kg/dose q8hr for 14-21 days for encephalitis
+
+5-10mg/kg/dose q8hr for 2-7 days followed by oral for immunocompetent genital HSV",antiviral,"HSV, herpes zoster (shingles), varicella (chicken pox)","virus specific thymidine kinase converts acyclovir to acyclovir monophoshate, which further gets ocnverted to acyclovir triphosphate which inhibits DNA synthesis","AKI, neurotoxicity, thrombotic microangiopathy (thrombus in capillaries& arterioles)",,check labs,
+Carvedilol,3.125mg,up to 25mg twice daily,"antihypertensinve, beta blocker with alpha blocking activity","heart failure with reduced ejection fraction including left ventricular dysfunction following MI
+HTN",nonselective beta-adrenoreceptor and alpha-adrenergic blocking activity. ,"cardiovascular: hypotension
+dizziness, fatigue
+weight gain","severe hypotension, primary obstructive valvular heart disease, mental incapacity (alzheimers, alcoholism, drug abuse) unless closely supervised","**BP, HR",
+rifaximin,550mg,"550mg twice daily, 5-10 days",rifamycin,"hepatic encephalopathy, irritable bowel syndrome, traveler's diarrhea",inhibits RNA synthesis by binding to bacterial DNA depdnent RNA polymerase -> decrease colonic demainating bacteria that produce ammonia,"peripheral edema, GI nausea, ascites, dizziness and fatigue",,monitor for bloody diarrheand C.difficile,
+spironolactone ,100mg,"100mg once daily, max dose 400mg","antiHTN, diuretic, potassium sparing, mineralocorticoid receptor antagonist","ascites due to cirrhosis, heart failure with reduced ejection fraction, HTN, primary hyperaldosteronism (tab only)","competes with aldosterone for receptor sites on distal renal tubules, increasing Na Cl and water secreiton, conserves K and H+, may block aldosterone effect on arteriolar smooth muscle ","gynecomastia (decreased decreased androgen production)
+hyperkalemia","hyperkalemia, addison disease, anuria, acute renal insuffciency, concomtant use with heparin or LMWH","**diuretic effect may be delayed 2-3 days, monitor electrolytes while giving. assess fluid statusu and monitor for CNS changes, rash",
+Vitamin B1 (thiamine),3000mg,250mg IV,vitamin,"thiamine deficiency (including thiamine deficiency in pregnancy associated with neuropathy), beriberi (dry or wet variety), Wernicke encephalopathy, infantile beriberi with acute collapse, cardiovascular disease due to thiamine deficiency, or when giving IV dextrose to individuals with marginal thiamine",coenzyme in carbohydrate metabolism combines wiht ATP to form thiamine pyrophosphate,"flushing, redness, diaphoresus, pruruties, nausea, hemmorragge, anaphylaxis, weakeness, puilmonary edema",,,
+alteplase,2mg,catheter clearance: 1-2mg,thombolytic,"acute ischemic stroke, pulmonary embolism, ST elevated mycoardial infarction",binds to fibrin and converts plasminogen to plasmin,hemmorrhage,,"**check HgB, PLT",
+prednisolone,40mg,10-60mg/day,corticosteroid,antiinflammatory,"supresses polymorphonuclear leukocytes and reversal of increaed capillary permeability, reduces volume and activity of immune system",,"hepatitis, herpes, shingles, varicella, unctrolled active infections, uncontrolled psychotic states","monitor glc for patietnts with diabets. monitor weight and report, signs of infection, visual changes",
+Acyclovir,600mg,"10mg/kg/dose q8hr for 14-21 days for encephalitis
+ 
+ 5-10mg/kg/dose q8hr for 2-7 days followed by oral for immunocompetent genital HSV",antiviral,"HSV, herpes zoster (shingles), varicella (chicken pox)","virus specific thymidine kinase converts acyclovir to acyclovir monophosphate, which further gets converted to acyclovir triphosphate which inhibits DNA synthesis","AKI, neurotoxicity, thrombotic microangiopathy (thrombus in capillaries& arterioles)",,check labs,
+Carvedilol,3.125mg,up to 25mg twice daily,"antihypertensive, beta blocker with alpha blocking activity","heart failure with reduced ejection fraction including left ventricular dysfunction following MI
+ HTN",nonselective beta-adrenoreceptor and alpha-adrenergic blocking activity.,"cardiovascular: hypotension
+ dizziness, fatigue
+ weight gain","severe hypotension, primary obstructive valvular heart disease, mental incapacity (Alzheimer’s, alcoholism, drug abuse) unless closely supervised","BP, HR",
+Folic Acid,1mg,PO: 1-5mg,water soluble vitamin,Megaloblastic and macrocytic anemia due to folate deficiency,folic acid is necessary for the formation of coenzymes in metabolic systems (purines and pyrimidines) required to maintain erythropoiesis and stimulates WBC and platelet production,"Flushing, malaise, hypersensitivity",hypersensitivity to folic acid,1mg,
+furosemide tab (Lasix),40mg,20-40mg,antihypertensive / loop diuretic,edema / HTN,inhibits reabsorption of sodium and chloride in loop causing water loss,"Acute kidney injury, fluid electrolyte loss, hypersensitivity reactions, ototoxicity",,"Check kidney labs before giving and continue to monitor kidney function, monitor for hypovolemia and electrolyte disturbances, monitor for allergic reactions S&S, monitor for deafness / tinnitus",
+sodium citrate,3mL,,anticoagulant,for granulocytapheresis,"citrate ions induce anticoagulation by chelating free ionized calcium, making it unavailable for use by coagulation system","cardiac arrythmia, chest pressure, hypotension
+ CNS: chills paresthesia
+ GI: stomach cramps",NO DIRECT IV,,
+Lactulose Liquid,,"10-20g, max 40g daily","ammonium detoxicant, laxative, osmotic","constipation, portal systemic encephalopathy","Bacteria degrades lactulose -> lower pH -> inhibits diffusion of NH3 into blood by causing NH3 convert to NH4+.
+ Enhances diffusion of NH3 from blood into gut where conversion to NH4+ occurs
+ produces osmotic effect in colon -> distention -> peristalsis
+ reduce blood ammonia -> reduce degree of protal systemic encephalopathy","dehydration, hypernatremia, hypokalemia
+ abdominal cramps, distension, diarrhea",low galactose diet,"monitor for soft stools or resolution of CNS in PSE
+ 
+ monitor for CHF
+ 
+ adjust dose for severe diarrhea",
+Pantoprazole magnesium tab enteric,40mg,40mg,"PPI, substituted benzimidazole","gastroesophageal reflux, Zollinger Ellison syndrome (++ Gastric acid)","PPI, suppress gastric acid secretion of parietal cell H+/K+ pump","fractures
+ lupus erythematosus (autoimmune disease)
+ pantoprazole by itself: hypomagnesemia (prolong QTc)
+ enteric infections
+ fundic gland polyps",rilpivirine,"labs
+ bloody diarrhea (C. difficile monitoring)",
+potassium chloride,3000mg,"10-20mEq 2-4x/day PO
+ 
+ 20mEq every2-3hrs maximum 10-20mEq/hr",electrolyte supplement,hypokalemia,"K+ is needed for nerve impulses, heart, brain and other tissues","cardioarythmias, hypervolemia, pulmonary edema","Inj: renal impairment with oliguria, anuria or azotemia, Adison disease, vfib, extensive tissue breakdown, acute dehydration",,
+prednisolone,40mg,10-60mg/day,corticosteroid,anti-inflammatory,"supresses polymorphonuclear leukocytes and reversal of increased capillary permeability, reduces volume and activity of immune system",,"hepatitis, herpes, shingles, varicella, uncontrolled active infections, uncontrolled psychotic states","monitor glc for patients with diabetes. monitor weight and report, signs of infection, visual changes",
+rifaximin,550mg,"550mg twice daily, 5-10 days",rifamycin,"hepatic encephalopathy, irritable bowel syndrome, traveler's diarrhea",inhibits RNA synthesis by binding to bacterial DNA dependent RNA polymerase -> decrease colonic deaminating bacteria that produce ammonia,"peripheral edema, GI nausea, ascites, dizziness and fatigue",,monitor for bloody diarrhea C.difficile,
+spironolactone,100mg,"100mg once daily, max dose 400mg","antiHTN, diuretic, potassium sparing, mineralocorticoid receptor antagonist","ascites due to cirrhosis, heart failure with reduced ejection fraction, HTN, primary hyperaldosteronism (tab only)","competes with aldosterone for receptor sites on distal renal tubules, increasing Na Cl and water secretion, conserves K and H+, may block aldosterone effect on arteriolar smooth muscle","gynecomastia (decreased androgen production)
+ hyperkalemia","hyperkalemia, Addison disease, anuria, acute renal insufficiency, concomitant use with heparin or LMWH","diuretic effect may be delayed 2-3 days, monitor electrolytes while giving. assess fluid status and monitor for CNS changes, rash",
+Vitamin B1 (thiamine),3000mg,250mg IV,vitamin,"thiamine deficiency (including thiamine deficiency in pregnancy associated with neuropathy), beriberi (dry or wet variety), Wernicke encephalopathy, infantile beriberi with acute collapse, cardiovascular disease due to thiamine deficiency, or when giving IV dextrose to individuals with marginal thiamine",coenzyme in carbohydrate metabolism combines with ATP to form thiamine pyrophosphate,"flushing, redness, diaphoresis, purities, nausea, hemorrhage, anaphylaxis, weakness, pulmonary edema",,,
+Lorazepam tab SL,4mg IV / 2mg po,"0.5-2mg PO
+ 1-4mg IV","anticonvulsant, benzodiazepine","anxiety, status epilepticus",binds benzodiazepine receptors on postsynaptic GABA neuron in CNS. enhances the inhibitory effect of GABA on neuronal excitability results by increasing neuronal membrane permeability to Cl- -> hyperpolarization.,"Anterograde amnesia
+ CNS depression
+ Neurodevelopmental effects in children
+ Paradoxical reactions
+ Propylene glycol toxicity [parenteral route](AKI, hemolysis, hypotension, cardiac arrythmias)
+ Withdrawal syndrome","myasthenia gravis
+ Parenteral: hypersensitivity to polyethylene glycol, propylene glycol or benzyl alcohol, sleep apnea","monitor for withdrawal or hyperactive
+ monitor vital signs
+ monitor lab values",
+Metoclopramide,10mg,10mg q4-6hr,"antiemetic, dopamine antagonist, gastrointestinal agent, prokinetic, serotonin receptor agonist","injection: nausea, gastroparesis
+ nasal: gastroparesis
+ oral: GERD, gastroparesis","blocks dopamine receptors and serotonin receptors in CNS
+ enhances response to Ach in tissue in upper GI to cause motility without stimulating gastric, biliary or pancreatic secretions and increase lower esophageal sphincter tone","CNS depression
+ Extrapyramidal symptoms (acute dystonia, parkinsonism, akathisia, neuroleptic malignant syndrome, tardive dyskinesia)
+ Hyperprolactinemia (may suppress hypothalamic GnRH -> inhibit reproductive function)","GI perforation, obstruction or hemorrhage that may be dangerous
+ 
+ history of EPS","monitor vital signs
+ check for missed menses, enlarged breasts or discharge",
+Ondasetron,4-8mg,"IV 4-8mg
+ oral 8mg TID","antiemetic, selective Serotonin receptor antagonist",nausea vomiting,blocks serotonin,"constipation
+ headache
+ hypersensitivity
+ QT prolongation","concomitant use with apomorphine
+ 
+ drugs that prolong QT interval",,
+Vitamin D cholecalciferol,2000 units,2000 units once daily,vitamin D analog,"dietary vitamin d supplement, also osteoporosis prevention",cholecalciferol (vitD3 is a provitamin). the active metaoblite calcitriol stimualtes calcium and phosphate absorption from the small intesitne and promotes secertion of calcium from bone to blood. promotes renal tubule phosphate resorption.,,hypercalcemia,"vit D toxicity (confusing, psychosis, tremor, nausea, weakness)",
+Apixaban,2.5mg,5mg BID unless age>80 then 2.5mg,"anticoagulant, factorXa inhibitor, ddirector oral anticoagulant","DVT, nonvalvular atrial fibrillation, post operative venous thromboprophylaxis, pulmonary embolism",inhibits platelet activatio nand fibrin clot formation via inhibiiton of factora Xa which is part of the prothombinase complex that catalyzes the conversion of prothrombin to thrombin which catalyzes the conversion of fibirnogen to fibrin.,"major bleeding, spinal or epidural hematomas(for patients undergoing spinal puncture or neuraxial anesthesia)","hepatic diseases associated with coagulopathy, active peptic ulkcer disease, recent bleeding, low molecular weight heparins, oral anticoagulants","check labs, bleeding, don't eat grapefruit juice",
+Atorvastatin,10mg,"40-80mg, but if patient has diabetes 10-20mg","antilipemic agent, HMG-CoA reductase inhibitor","heterozygous / homozygous familial hypercholsterolemia, prevention of atherosclerotic cardiovascular disease",inhibits HMG-CoA reductase which is the rate limitting enzyme in choelsterol synthesis -> compensatory iincrsae in the exprression of LDL receptors on hepatocyte membranes and a stimulation of LDL catabolism. ,"hepatic effects(increased serum transaminases and hepatotoxicity), muscle related effects (myalgia, myopathy, rhabdomyolysis)","concurrent with boceprevir, cyclosporine, elbasvir/grazoprevier, glecaprevir/pibrentasvir, ledispavir/sofosbuvir, simeprevir, telaprevir, or velpatasvir/sofosbuvir","monitor for myopathy(muscle pain, weakness, fatigue)",
+hydroxychloroquine,200mg,max 400mg,aminoquinoline,"lupus erthematosus, malaria","interferes with digestive vacuole funciton of malarial paraistes by incresaing pH and interferring withi lysosomal degradation of Hgb, inhibits locomoiton of neutrophils and chemotaxis of eosinopihls, impairs complement dependent antige-antibody reactions","cardiomyopathy, G6PD deficiency, hypersensivity reaction, hypoglycemia, neuromuscular effects, neuropsychiatric effets, QT prolongation, retinal toxicity",preexisting retinopathy,"check ordered labs, opthalmic exams are important teach this, monotor for neuromuscular and occular changes",
+QUEetiapine,25mg,25mg for agitation up to 75mg twice daily,second generation atypical antipsychotic,"bipolar disorder, major deprepssive disorder, schizophrenia",dibenzothiazepine atypical antipsychotic. Effect mediated thorugh a combination of dopamine type 2 and serotonin type 2 antagonism.,"anticholingeric effects, cataracts, dyslipidemia, EPS, hematologic abnormalities, hyperglycemia, hypothyroidism, mortality in older adults, neuroleptic mlaginant syndrome, orthostatic hypotension, QT prolongation, sedation, sexual dysfunction, temperature dysregulation, weight gain",,"check vitals, height and weight as ordered, monitor for depression or suicidial ideation.
+
+measure for changes in vision",
+trazodone,12.5mg,25-50/day for major depression in geriatrics,"antidepressant, serotonin reuptake inhibitor/antagonist",major depressive disorder,"inhibits reuptake of serotonin, causes adrenoreceptor subsensitiivty acts as a 5HT2a receptor antagonist and induces ignificant changes in 5-HT presynpatic receptor adrenoreceptors. Also blocks histamine and alpha1-adrenergic receptors.","activation of mania or hypomania, bleeding risk, cardiac arrhthmias, orthostatic hypotension, pripaism, serotonin syndorme, suicidal thinking, withrawal syndome","IV methlyene blue, linezolid",monitor therapeutic response,
+budesonide inhaler,"200 mcg/puff, 2 puff",400mcg/day,"corticosteroid, inhalant",asthma,"controls the rate of protein synthesis, depressed the migration of polymorphonuclear leukocytes, fibroblats; reverese capillary permeability and lysosomal stabillization at the cellular level to prevent or control inflammation. has potent glucocorticoid acitivty and weak mineralocorticoid activity","Otitis media, respiration infection","moderate to severe bronchiectasis, pulmonary tuberculosis, untreated respiratory infection",check ordered pulmonary function tests results and report abnormalities,
+methotrexate,,,"antineopalstic agent, antimetabolite, immunosuppresant","oncology: acute lymphoblastic leukemia, breast cancer, cutaneous T-cell lymphoma, gestational trohpoblastic neoplasia, head and neck cancer, mengingeal leukemia
+non oncology: rheumatoid arhtritis, psoriasis, polarticular juvenile idiopathic arthritiis","Methotrexate is a folate antimetabolite that inhibits DNA synthesis, repair, and cellular replication. Methotrexate binds to and inhibits dihydrofolate reductase, inhibiting the formation of reduced folates, and thymidylate synthetase, resulting in inhibition of purine and thymidylic acid synthesis, thus interfering with DNA synthesis, repair, and cellular replication. Methotrexate is cell cycle specific for the S phase of the cycle. Actively proliferative tissues are more susceptible to the effects of methotrexate.
+
+The mechanism in the treatment of rheumatoid arthritis and polyarticular-course juvenile idiopathic arthritis is unknown, but may affect immune function. In psoriasis, methotrexate is thought to target rapidly proliferating epithelial cells in the skin.
+
+In Crohn disease, it may have immune modulator and anti-inflammatory activity.
+","Dermatologic toxicity, GI toxicity, hematologic toxicity, hepatotoxicitiy, infection, nephrotoxicity, neurotixicity, pulmonary toxicity","pregnancy, alcoholism, alcoholic liver disease or other chronic liver disease, immnuodeficiency syndormes, prexisting lbood dyscrasias","Check ordered labs and report any abnormalities. Monitor for and educate patient to report signs of pneumonitis (dry, nonproductive cough), gastrointestinal toxicities (blood in stool or vomit, black, tarry stools, mucositis, or mouth ulcers), dermatological effects (radiation recall and photosensitivity), signs of renal failure (decreased urine output, or dark, tea-colored urine), and signs of liver failure (lethargy, decreased appetite, right upper quadrant pain, or yellowing of skin or eyes).. Instruct patient on importance of limited alcohol intake during treatment.",
+momentasone,50mcgg/spray,2 sprays 100mcg in each nostril max 200mcg,"corticosteroid, nasal","allergic rhinits, nasal congesion associated with allergic rhinitis, nasal polyps","May depress the formation, release, and activity of endogenous chemical mediators of inflammation (kinins, histamine, liposomal enzymes, prostaglandins). Leukocytes and macrophages may have to be present for the initiation of responses mediated by the above substances. Inhibits the margination and subsequent cell migration to the area of injury, and also reverses the dilatation and increased vessel permeability in the area resulting in decreased access of cells to the sites of injury.
+
+","infection, headache, blood in nasal mucosa",,"Check growth with long-term use in pediatric patients. Monitor patients for signs of infection. Instruct patient to have regular eye exams and to report any vision changes.
+Don't spray into septum",
+telmisartan tab,40mg,20-40mg once daily up to 80mg,"angiotensin II receptor blocker, antihypertensive","cardiovascular risk reduction, hypertension","Angiotensin II acts as a vasoconstrictor. In addition to causing direct vasoconstriction, angiotensin II also stimulates the release of aldosterone. Once aldosterone is released, sodium as well as water is reabsorbed. The end result is an elevation in blood pressure. Telmisartan is a nonpeptide AT1 angiotensin II receptor antagonist. This binding prevents angiotensin II from binding to the receptor thereby blocking the vasoconstriction and the aldosterone secreting effects of angiotensin II.","hypotension, chest pain, dizzinenss, dermal ulcer, diarrhea, back pain","concomitant use with aliskiren in patients with moderate to severe renal impairment (GFR<60), prepganncy, breastfeeding, hereditary conditon of fructose intoelrance or lactose intolerant patients (product specific)",Check ordered labs and report abnormalities. Monitor blood pressure. Monitor for signs of angioedema. Instruct women of child-bearing age to notify provider immediately for pregnancy.,
+tinzaparin,4500units = 0.45mL,"max dose 14,000 antiXa daily for baraitric surgery","anticoagulant, low molecular weight heparin","anticoagaulation, DVT, PE treatment, postoperative thromboprolhylaxis","binds antithrombin III, enhancing the inhibition of several clotting factors, particularly factor Xa. Tinzaparin anti-Xa activity (70 to 120 units/mg) is greater than anti-IIa activity (~55 units/mg) and it has a higher ratio of antifactor Xa to antifactor IIa activity compared to unfractionated heparin. Low molecular weight heparins have a small effect on the activated partial thromboplastin time(measures the number of seconds it takes for a clot to form in a sample of blood after substances (reagents) are added)","increased serum ALT, chest pain, bleedding, ","active bleeding,history of immunoligcally mediated hpearin induced thrombocytopenia(HIT), uncontrolled severe hypertension. Do not give if current HIT or HIT with thrombosis.","Verify no known allergy to pork products. Check ordered labs and report any abnormalities. Obtain weight; dosing is weight based. Monitor patient for signs and symptoms of bleeding (bruising or bleeding that is not normal, changes in menstrual periods like lots of bleeding, spotting, or bleeding between cycles, nosebleeds that won’t stop, bowel movements that are red or black like tar, throwing up blood or liquid that looks like coffee grounds) and neurological impairment (midline back pain, sensory defects, motor defects, bowel dysfunction, and bladder dysfunction). Educate patients on bleeding precautions including avoiding invasive procedures, activities that could cause injuries, and how to handle bleeding emergencies. Monitor for signs and symptoms of thrombocytopenia after therapy initiation. Instruct patient on proper subcutaneous self-injection technique if applicable. Advise patient to tell all doctors and dentists about use of an anticoagulant.",
+digoxin,0.125mg,maintenance of 0.125mg to 0.25 mg once dadilyy,antiarrhythmatic agent,"afib, heart failure with reduced ejection fraction",inhibits Na/K ATPase in myocardial cells resulting in transient increase of intracelllar sodium,"digoxin toxicity(n/v, visual disturbances, tachycardia, AV block)",vfib,"Monitor laboratory tests when beginning or changing dosage, especially with IV administration. IV: Monitor ECG continuously. Oral: Monitor apical pulse before administering any dose. Teach patient to report noncardiac signs of toxicity (eg, anorexia, blurred vision, ""yellow"" vision, confusion).",
+insulin,,,,,,,,,
+verapamil,,up to 180mg,"antianginal agent, antiarrhthmic agent class IV, antihtn, Ca channel blocker","agina, afib, htn, supraventricular tachycardia",Inhibits calcium ion from entering the “slow channels” or select voltage-sensitive areas of vascular smooth muscle and myocardium during depolarization; produces relaxation of coronary vascular smooth muscle and coronary vasodilation; increases myocardial oxygen delivery in patients with vasospastic angina; slows automaticity and conduction of AV node.,"acute decompensated heart failure
+bradyarrhthmias, hepatic effects","complicated MI, marked bradycardia, concurrent use of ivabradine or fibraserin","Check ordered labs and report any abnormalities. Monitor blood pressure, heart rate, rhythm, and ECG. IV infusions require an infusion pump and continuous cardiac and hemodynamic monitoring. Educate patient about limiting grapefruit juice while taking this medicine. Instruct patient to take extra care if drinking alcohol while taking this medicine.",
