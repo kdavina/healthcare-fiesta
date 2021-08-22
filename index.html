@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
+<!--
+    Tutorial for building a basic responsive table, taken from Mozilla's tutorial https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics
+Table template taken from 
+https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-template.html */
+ -->
+    <head>
+    <meta charset="utf-8">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    </head>
     <body>
         <h1>Select Drugs of Interest</h1>
         <input type="checkbox" id="drug1" name="drug1" value="Tylenol">
         <label for="drug1">Tylenol</label>
         <button type="button" onclick='document.getElementById("careplan").innerhtml = "TYLENOL-CAREPLAN"'>Submit</button>
         <p id="careplan">careplan goes here</p>
+
+        <h1>Drug Information</h1>
+        <table>
+        <tr>
+            <th>Drug Name</th>
+            <th>Dose</th>
+            <th>Usage instructions</th>
+        </tr>
+        <tr>
+            <th>Hello! This is a row header</th>
+            <td> Hello! this should be on an additional row</td>
+        </tr>
+        </table>
     </body>
 </html>
