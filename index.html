@@ -9,12 +9,16 @@ https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-templat
     <meta charset="utf-8">
     <title>Table template</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
+    <head>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
     </head>
     <body>
-        <h1>Select Drugs of Interest</h1>
-        <input type="checkbox" id="drug1" name="drug1" value="Tylenol">
-        <label for="drug1">Tylenol</label>
-        <button type="button" onclick='document.getElementById("careplan").innerhtml = "TYLENOL-CAREPLAN"'>Submit</button>
+
+        <h1 id='websiteTitle'>Careplan Fiesta!</h1>
+        <h2>Select Drugs of Interest</h2>
+        <div id='drugList'></div>
+
+        <button type="button" onclick="document.getElementById('careplan').innerHTML = 'tylenol careplan'">Submit</button>
         <p id="careplan">careplan goes here</p>
 
         <h1>Drug Information</h1>
@@ -30,4 +34,6 @@ https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-templat
         </tr>
         </table>
     </body>
+    <script src="./utils.js"></script>
+    <script src="./home.js"></script>
 </html>
