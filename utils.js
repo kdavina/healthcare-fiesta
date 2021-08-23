@@ -1,7 +1,8 @@
 function homepageSetup(){
     d3.csv("Drug-List.csv").get(
         function(data){
-            createCheckboxes(data.map(data => data.DrugName)) // mapping: https://stackoverflow.com/questions/19590865/from-an-array-of-objects-extract-value-of-a-property-as-array
+            console.log(data)
+            createCheckboxes(data.map(data => data.GenericName)) // mapping: https://stackoverflow.com/questions/19590865/from-an-array-of-objects-extract-value-of-a-property-as-array
     })
 }
 
