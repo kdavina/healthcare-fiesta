@@ -20,7 +20,7 @@ function createCheckboxes(items){
         checkBox.value = items[i];
         checkBox.id = i;
         label.htmlFor = i;
-        label.value = items[i];
+        // label.value = items[i];
         drugList.appendChild(sampleDiv)
         sampleDiv.appendChild(checkBox);
         sampleDiv.appendChild(label);
@@ -28,6 +28,39 @@ function createCheckboxes(items){
     };
 }
 
+function generateTextBox(){
+    changeButtonIcon();
+    let divider = document.createElement("div");
+    let textInput = document.createElement("input");
+    let addButton = document.createElement("button");
+    let icon = document.createElement("ion-icon");
+    textInput.type = "text";
+    textInput.placeholder = "Drug Name";
+    addButton.type = "button";
+    addButton.onclick = generateTextBox;
+    addButton.name = "textBoxButton"
+    icon.name = "add-outline";
+    dynamicDrugList.appendChild(divider);
+    divider.appendChild(textInput);
+    divider.appendChild(addButton);
+    addButton.appendChild(icon);
+}
+
+function changeButtonIcon(){
+    let textBoxList = document.getElementById("dynamicDrugList");
+    console.log(textBoxList);
+    let iconList = textBoxList.getElementsByTagName("ion-icon");
+    console.log("iconList", iconList);
+    for (i=0; i<iconList.length; i++){
+        console.log("in the list",iconList[i])
+        iconList[i].name="trash-outline";
+    }
+
+function removeDrugTextBox(){
+    // to-do
+}
+
+}
 function generateTable(){
     d3.csv("Drug-List.csv").get(
         function(data){

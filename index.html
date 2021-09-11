@@ -20,7 +20,12 @@ https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-templat
         <h1 id='websiteTitle'>Careplan Fiesta<ion-icon name="document-text"></ion-icon></h1>
         <h2>Select Drugs of Interest</h2>
         <div id='drugList'></div>
-
+        <div id='dynamicDrugList'>
+            <div>  
+                <input type="text" placeholder="Drug Name" name="Drug">
+                <button type="button" onclick="generateTextBox()"><ion-icon name="add-outline"></ion-icon></button>
+            </div>
+          </div>
         <button type="button" onclick="generateTable()">Submit</button>
         <p id="careplan">careplan goes here</p>
     </body>
