@@ -12,13 +12,18 @@ function homepageSetup(){
 function createCheckboxes(items){
     for (i = 0; i < items.length; i++){
         // https://stackoverflow.com/questions/28678027/create-and-populate-with-dom-a-checkbox-list-with-array-values-in-javascript/28678424
+        let sampleDiv = document.createElement("div");
         let checkBox = document.createElement("input");
         let label = document.createElement("label");
         checkBox.type = "checkbox";
-        checkBox.value = items[i];
         checkBox.name = "GenericName";
-        drugList.appendChild(checkBox);
-        drugList.appendChild(label);
+        checkBox.value = items[i];
+        checkBox.id = i;
+        label.htmlFor = i;
+        label.value = items[i];
+        drugList.appendChild(sampleDiv)
+        sampleDiv.appendChild(checkBox);
+        sampleDiv.appendChild(label);
         label.appendChild(document.createTextNode(items[i]));
     };
 }
