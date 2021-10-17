@@ -4,6 +4,9 @@ function homepageSetup(){
             drugArray = data;
             createCheckboxes(data.map(data => data.GenericName)); // only pass drug's generic names to fcn using mapping: https://stackoverflow.com/questions/19590865/from-an-array-of-objects-extract-value-of-a-property-as-array
     })
+
+    generateTextBox();
+        
     
 }
 
@@ -16,7 +19,6 @@ function createCheckboxes(items){
         checkBox.type = "checkbox";
         checkBox.name = "GenericName";
         checkBox.value = items[i];
-        checkBox.id = i;
         label.setAttribute("for", i);
         label.innerHTML = items[i];
         drugList.appendChild(sampleDiv)
@@ -31,11 +33,15 @@ function generateTextBox(){
     let textInput = document.createElement("input");
     let addButton = document.createElement("button");
     let icon = document.createElement("ion-icon");
+    do {newId = Math.floor(Math.random() * 100);}
+    while (document.getElementById(newId) && document.getElementById(newId + 1) && document.getElementById(newId + 2));
+    divider.id = newId;
     textInput.type = "text";
     textInput.placeholder = "Drug Name";
     addButton.type = "button";
     addButton.onclick = generateTextBox;
-    addButton.name = "textBoxButton"
+    addButton.className = "textBoxButton"
+    addButton.id = newId + 1;
     icon.name = "add-outline";
     dynamicDrugList.appendChild(divider);
     divider.appendChild(textInput);
@@ -44,17 +50,20 @@ function generateTextBox(){
 }
 
 function changeButtonIcon(){
-    let textBoxList = document.getElementById("dynamicDrugList");
-    console.log(textBoxList);
-    let iconList = textBoxList.getElementsByTagName("ion-icon");
+    let dynamicDrugList = document.getElementById("dynamicDrugList");
+    let buttonList = dynamicDrugList.getElementsByClassName("textBoxButton");
+    console.log("buttonList", buttonList);
+    let iconList = dynamicDrugList.getElementsByTagName("ion-icon");
     console.log("iconList", iconList);
     for (i=0; i<iconList.length; i++){
-        console.log("in the list",iconList[i])
-        iconList[i].name="trash-outline";
+        iconList[i].name = "trash-outline";
+        console.log("buttonId", buttonList[i].id);
+        buttonList[i].onclick =  removeDrugTextBox;
     }
 
 function removeDrugTextBox(){
-    // to-do
+    let deleteDiv = document.getElementById(this.id-1);
+    deleteDiv.remove();
 }
 
 }
