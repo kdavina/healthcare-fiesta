@@ -2,9 +2,7 @@ function homepageSetup(){
     d3.csv("Drug-List.csv").get(
         function(data){
             drugArray = data;
-            // console.log("raw data", data);
-            // console.log("drugArray", drugArray);
-            createCheckboxes(data.map(data => data.GenericName)); // mapping: https://stackoverflow.com/questions/19590865/from-an-array-of-objects-extract-value-of-a-property-as-array
+            createCheckboxes(data.map(data => data.GenericName)); // only pass drug's generic names to fcn using mapping: https://stackoverflow.com/questions/19590865/from-an-array-of-objects-extract-value-of-a-property-as-array
     })
     
 }
@@ -19,12 +17,11 @@ function createCheckboxes(items){
         checkBox.name = "GenericName";
         checkBox.value = items[i];
         checkBox.id = i;
-        label.htmlFor = i;
-        // label.value = items[i];
+        label.setAttribute("for", i);
+        label.innerHTML = items[i];
         drugList.appendChild(sampleDiv)
         sampleDiv.appendChild(checkBox);
         sampleDiv.appendChild(label);
-        label.appendChild(document.createTextNode(items[i]));
     };
 }
 
