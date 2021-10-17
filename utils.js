@@ -79,7 +79,6 @@ function generateTable(){
             let headerData = d3.keys(data[0]);
             for (i=0; i< headerData.length; i++){
                 let cell = document.createElement("th");
-                // console.log("headerData[i]", headerData[i]);
                 let cellText = document.createTextNode(headerData[i]);
                 cell.appendChild(cellText);
                 headerRow.appendChild(cell);
@@ -88,47 +87,34 @@ function generateTable(){
             let checkedDrugs = document.getElementsByName("GenericName");
             let inputtedDrugNames = [].slice.call(document.getElementsByClassName("inputtedDrugNames")); // convert hTML collection to an Array https://stackoverflow.com/questions/222841/most-efficient-way-to-convert-an-htmlcollection-to-an-array
             inputtedDrugNames = inputtedDrugNames.map( inputtedDrugNames => inputtedDrugNames.value);
-            console.log("before inputtedDrugNames", inputtedDrugNames);
             for (drugName of checkedDrugs){
                 if (drugName.checked){
                     if (inputtedDrugNames.indexOf(drugName.value) !== -1){inputtedDrugNames.splice(inputtedDrugNames.indexOf(drugName.value),1);}
                     let row = document.createElement("tr");
                     let fetchedGenericName = drugName.value;
                     const drugData = Object.values(data.find(element => element.GenericName === drugName.value));
-                    console.log("drugData", drugData);
-                    // console.log("parsing individual drug data", d3.keys(drugData));
-                    // console.log("drugData.length", drugData.length);
                     for (i=0; i < drugData.length; i++){
-                        console.log("entered row")
                         let cell = document.createElement("td");
-                        console.log("drugData[i]", drugData[i]);
                         let cellText = document.createTextNode(drugData[i]);
                         cell.appendChild(cellText);
                         row.appendChild(cell);
-                        console.log("cellText", cellText);
                     }
                     tBody.appendChild(row);
                 }   
             }
-            inputtedDrugNames = inputtedDrugNames.filter ( e => e) ;// strip empty strings
-            console.log(inputtedDrugNames);
+            inputtedDrugNames = inputtedDrugNames.filter ( e => e) ;// strip empty strings https://reactgo.com/remove-empty-strings-array-javascript/
             for (remainingDrugName of inputtedDrugNames){
                 let row = document.createElement("tr");
                 const drugData = Object.values(data.find(element => element.GenericName === remainingDrugName));
                 for (i=0; i < drugData.length; i++){
-                    console.log("entered row")
                     let cell = document.createElement("td");
-                    console.log("drugData[i]", drugData[i]);
                     let cellText = document.createTextNode(drugData[i]);
                     cell.appendChild(cellText);
                     row.appendChild(cell);
-                    console.log("cellText", cellText);
                 }
                 tBody.appendChild(row);
             }
-            console.log("inputtedDrugNames", inputtedDrugNames);
             // https://www.javatpoint.com/how-to-get-all-checked-checkbox-value-in-javascript
-            // console.log("checked boxes", document.getElementsByName("GenericName"));
 
 
             table.appendChild(tBody);
