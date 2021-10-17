@@ -38,10 +38,12 @@ function generateTextBox(){
     divider.id = newId;
     textInput.type = "text";
     textInput.placeholder = "Drug Name";
+    textInput.id = newId + 1;
+    textInput.className = "inputtedDrugNames";
     addButton.type = "button";
     addButton.onclick = generateTextBox;
     addButton.className = "textBoxButton"
-    addButton.id = newId + 1;
+    addButton.id = newId + 2;
     icon.name = "add-outline";
     dynamicDrugList.appendChild(divider);
     divider.appendChild(textInput);
@@ -52,17 +54,14 @@ function generateTextBox(){
 function changeButtonIcon(){
     let dynamicDrugList = document.getElementById("dynamicDrugList");
     let buttonList = dynamicDrugList.getElementsByClassName("textBoxButton");
-    console.log("buttonList", buttonList);
     let iconList = dynamicDrugList.getElementsByTagName("ion-icon");
-    console.log("iconList", iconList);
     for (i=0; i<iconList.length; i++){
         iconList[i].name = "trash-outline";
-        console.log("buttonId", buttonList[i].id);
         buttonList[i].onclick =  removeDrugTextBox;
     }
 
 function removeDrugTextBox(){
-    let deleteDiv = document.getElementById(this.id-1);
+    let deleteDiv = document.getElementById(this.id-2);
     deleteDiv.remove();
 }
 
@@ -87,8 +86,12 @@ function generateTable(){
             }
             tBody.appendChild(headerRow);
             let checkedDrugs = document.getElementsByName("GenericName");
+            let inputtedDrugNames = [].slice.call(document.getElementsByClassName("inputtedDrugNames")); // convert hTML collection to an Array https://stackoverflow.com/questions/222841/most-efficient-way-to-convert-an-htmlcollection-to-an-array
+            inputtedDrugNames = inputtedDrugNames.map( inputtedDrugNames => inputtedDrugNames.value);
+            console.log("before inputtedDrugNames", inputtedDrugNames);
             for (drugName of checkedDrugs){
                 if (drugName.checked){
+                    if (inputtedDrugNames.indexOf(drugName.value) !== -1){inputtedDrugNames.splice(inputtedDrugNames.indexOf(drugName.value),1);}
                     let row = document.createElement("tr");
                     let fetchedGenericName = drugName.value;
                     const drugData = Object.values(data.find(element => element.GenericName === drugName.value));
@@ -107,7 +110,23 @@ function generateTable(){
                     tBody.appendChild(row);
                 }   
             }
-
+            inputtedDrugNames = inputtedDrugNames.filter ( e => e) ;// strip empty strings
+            console.log(inputtedDrugNames);
+            for (remainingDrugName of inputtedDrugNames){
+                let row = document.createElement("tr");
+                const drugData = Object.values(data.find(element => element.GenericName === remainingDrugName));
+                for (i=0; i < drugData.length; i++){
+                    console.log("entered row")
+                    let cell = document.createElement("td");
+                    console.log("drugData[i]", drugData[i]);
+                    let cellText = document.createTextNode(drugData[i]);
+                    cell.appendChild(cellText);
+                    row.appendChild(cell);
+                    console.log("cellText", cellText);
+                }
+                tBody.appendChild(row);
+            }
+            console.log("inputtedDrugNames", inputtedDrugNames);
             // https://www.javatpoint.com/how-to-get-all-checked-checkbox-value-in-javascript
             // console.log("checked boxes", document.getElementsByName("GenericName"));
 
